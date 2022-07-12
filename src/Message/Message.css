@@ -1,0 +1,34 @@
+.user div {
+    display: flex;
+    padding: 15px 8px;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 80%;
+    background: #d53369; 
+    background: -webkit-linear-gradient(to right, #cbad6d, #d53369); 
+    background: linear-gradient(
+        to right,
+        #cbad6d,
+        #d53369
+    );
+}
+
+.user-me div {
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 10px;
+}
+.user-other {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.user-img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.text {
+    margin: 0 10px;
+    max-width: 300px;
+}
